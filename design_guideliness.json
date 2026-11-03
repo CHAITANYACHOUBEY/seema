@@ -1,0 +1,108 @@
+{
+  "project_name": "Seema Enterprise - Digital Manufacturing & E-Commerce Ecosystem",
+  "archetype": "Architectural Precision & Industrial Luxury",
+  "design_freedom": "HIGH - Hybrid Ecosystem (Retail Elegance + High-Density B2B Manufacturing Admin)",
+  "color_palette": {
+    "theme": "Charcoal, Warm White, Brushed Silver & Champagne Gold",
+    "background_light": "#F9F8F6",
+    "background_dark": "#121316",
+    "surface_light": "#FFFFFF",
+    "surface_dark": "#1A1C20",
+    "charcoal_primary": "#1E2024",
+    "warm_white": "#F4F3EF",
+    "brushed_silver": "#8E959E",
+    "champagne_gold": "#C5A059",
+    "champagne_gold_hover": "#D4AF37",
+    "muted_border": "rgba(255, 255, 255, 0.12)",
+    "text_dark": "#16171A",
+    "text_muted": "#64748B",
+    "text_light": "#F8FAFC",
+    "status_success": "#10B981",
+    "status_warning": "#F59E0B",
+    "status_error": "#EF4444",
+    "currency_symbol": "₹ (INR)"
+  },
+  "typography": {
+    "font_pairings": {
+      "display_heading": "Playfair Display, Cormorant Garamond, or Outfit (Serif / Architectural Sans for luxury & industrial grandeur)",
+      "body_ui": "Plus Jakarta Sans or Inter (clean, high-density readability for catalog & admin tables)"
+    },
+    "scale_rules": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight",
+      "h3_card": "text-xl sm:text-2xl font-medium",
+      "h4_sub": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed",
+      "caption_label": "text-xs sm:text-sm uppercase tracking-[0.2em] font-semibold text-champagne_gold"
+    },
+    "hierarchy_gap_rule": "Heading to subheading gap must not exceed 2 Tailwind steps. Ensure tight letter spacing on titles above 32px."
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing System - 2x to 3x standard padding for luxury retail, dense compact layout for Admin.",
+    "bento_grid_modes": {
+      "mode_a_marketing": "grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8 md:gap-12 with asymmetric spans (8-col hero, 4-col spotlight)",
+      "mode_b_admin_dashboard": "grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 with strict data correlation and scanability"
+    },
+    "container_padding_rule": "Containers with solid borders MUST have internal padding (p-6 or p-8) to eliminate edge text collision.",
+    "navigation_header": "Fixed/Sticky Header with backdrop-blur-xl bg-charcoal_primary/85 or bg-warm_white/85 (NEVER 100% transparent). z-index: 50 with top padding compensations."
+  },
+  "surface_and_materials": {
+    "tracing_beam": "Subtle animated 1px golden borders for featured products and high-tier wholesale cards.",
+    "glassmorphism": "backdrop-blur-xl bg-white/70 or bg-slate-900/80 with 1px border-white/20 for floating menus & drawers.",
+    "card_styles": "Cardless or minimal 1px border (#E2E8F0 light / #27272A dark) with micro hover lift (-translate-y-1) and soft ambient shadow."
+  },
+  "key_features_and_flows": {
+    "ecommerce_retail": {
+      "hero": "Animated slideshow with luxury bathroom interior visuals, gold CTA buttons, and key USP counters (25+ Yrs, 100% SS-304 Grade, GST Ready).",
+      "mega_menu": "Interactive category showcase (Bathroom Accessories, SS Towel Racks & Rails, Sanitary Fixtures, Precision Fasteners, Brass & SS Hinges).",
+      "product_listing": "Faceted filter bar (Material, Finish, Price, In-Stock), grid/list toggle, instant search, and SKU badge.",
+      "product_detail": "Variant switch (Brushed Silver, Rose Gold, Matte Black, Chrome), Wholesale MOQ tier discount table, 360/gallery view, and instant quotation modal.",
+      "cart_drawer": "Slide-out side drawer with free shipping threshold progress, item MOQ validator, and quick checkout link."
+    },
+    "b2b_wholesale_portal": {
+      "features": [
+        "Quick Order Matrix by SKU list & CSV upload",
+        "GSTIN Tax Verification badge",
+        "Dealer Tier Discounting (Gold, Platinum, Distributor pricing)",
+        "Request Formal Performa Invoice / Quotation Generator",
+        "Download CAD / Technical Spec Sheet PDF button"
+      ]
+    },
+    "admin_dashboard": {
+      "features": [
+        "Executive Analytics (Sales volume, GST breakdown, top selling SS SKUs, wholesale approval queue)",
+        "Product & Variant Pricing Engine (MRP, Dealer Price, Bulk Tier Pricing)",
+        "Wholesale Dealer Approvals workflow (Pending, Verified, Credit Limit Allocation)",
+        "Quotations & GST Invoicing System (Tax calculation, PDF print preview, Status: Sent, Approved, Paid)",
+        "Inventory Ledger & Low-Stock alerts",
+        "Shipping & Order Fulfillment tracker",
+        "CMS (Banners, Announcement Bar, Featured Collections)",
+        "Staff Roles & Audit Logs"
+      ]
+    }
+  },
+  "accessibility_and_testing": {
+    "data_testid_rule": "CRITICAL: Every interactive button, link, tab, input, table row, filter, and metric card MUST have a descriptive data-testid (e.g., data-testid='checkout-button', data-testid='sku-input').",
+    "reduced_motion": "Respect prefers-reduced-motion in Framer Motion components.",
+    "contrast": "Ensure all text satisfies APCA / WCAG AA standard against Charcoal (#1E2024) and Warm White (#F9F8F6)."
+  },
+  "image_urls": {
+    "hero_banner": "https://images.unsplash.com/photo-1759223607861-f0ef3e617739",
+    "luxury_sink": "https://images.unsplash.com/photo-1576698483491-8c43f0862543",
+    "modern_faucet": "https://images.unsplash.com/photo-1635286771551-9d7241ce7811",
+    "bathroom_vanity": "https://images.pexels.com/photos/19980252/pexels-photo-19980252.jpeg",
+    "towel_rack": "https://images.unsplash.com/photo-1608651061499-ff031fbf6645?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHxiYXRocm9vbSUyMGFjY2Vzc29yaWVzJTIwdG93ZWwlMjByYWNrfGVufDB8fHx8MTc4MzI2NDc2N3ww&ixlib=rb-4.1.0&q=85",
+    "hardware_flanges": "https://images.unsplash.com/photo-1548683726-203119be6a39",
+    "metallic_accessories": "https://images.unsplash.com/photo-1606337321936-02d1b1a4d5ef",
+    "towel_hook": "https://images.pexels.com/photos/4194705/pexels-photo-4194705.jpeg"
+  },
+  "instructions_to_main_agent": [
+    "Codebase uses React with JavaScript (.js and .jsx files). Do NOT output TypeScript .tsx code.",
+    "Always import icons from 'lucide-react' which is pre-installed.",
+    "Use 'sonner' for toast notifications (located in src/components/ui/sonner.tsx or import { toast } from 'sonner').",
+    "Ensure all components are responsive (mobile-first approach).",
+    "Ensure explicit hover text color is set whenever hover background color is applied.",
+    "Ensure dropdowns and dialogs have solid or backdrop-blur backgrounds — NEVER 100% transparent.",
+    "Integrate seamless switching between E-Commerce Storefront, Wholesale Portal, and Admin Panel using header role switch or navigation tabs."
+  ]
+}
